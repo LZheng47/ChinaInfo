@@ -1,0 +1,27 @@
+#main{
+  background-image:linear-gradient(45deg,rgba(251, 219, 131, 0.6),rgba(233, 190, 96, 0.6)), url('cuisine/CCGMain.jpg');
+}
+#gallerymain{
+  background-image:linear-gradient(90deg,rgba(255, 233, 173, 0.9),rgba(255, 221, 108, 0.9));
+}
+#gallerymain .section{
+  border:2px solid rgba(255, 151, 33, 0.8);
+}
+#gallerymain1{
+  background-image:linear-gradient(180deg,rgba(255, 173, 173, 0.9),rgba(255, 155, 108, 0.9));
+}
+#gallerymain2{
+  background-image:linear-gradient(180deg,rgba(255, 155, 108, 0.9),rgba(255, 216, 108, 0.9));
+}
+#gallerymain3{
+  background-image:linear-gradient(180deg,rgba(255, 216, 108, 0.9),rgba(255, 253, 108, 0.9));
+}
+#gallerymain1 h2{
+  border-bottom:2px solid rgba(255, 132, 132, 0.8)
+}
+#gallerymain2 h2{
+  border-bottom:2px solid rgba(253, 129, 72, 0.8)
+}
+#gallerymain3 h2{
+  border-bottom:2px solid rgba(231, 198, 36, 0.8)
+}

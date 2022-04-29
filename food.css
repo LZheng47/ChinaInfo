@@ -1,0 +1,97 @@
+#main{
+  background-image:linear-gradient(45deg,rgba(190, 255, 177,0.8),rgba(168, 255, 150, 0.8)), url('food/main.jpg');
+}
+#intro{
+  background-image:linear-gradient(90deg,rgba(135, 230, 116, 0.8),rgba(206, 255, 196, 0.8));
+  box-shadow:inset 5px -5px 0px 5px rgba(0, 0, 0, 0.1);
+  align-items:center;
+  justify-content:center;
+}
+#intro div{
+  padding:40px;
+}
+#introleft p{
+  text-shadow:1px 1px 5px rgba(0,0,0,0.7);
+}
+#intro h1{
+  font-size:36px;
+  border-bottom:1px solid white;
+  text-shadow:1px 1px 5px black;
+}
+#intro hr{
+  max-width:0px;
+  min-height:380px;
+}
+#introright iframe{
+  max-width:560px;
+  min-height:315px;
+  width:100%;
+  box-shadow:5px 5px 0px 2px rgba(0, 0, 0, 0.2);
+}
+#introright iframe:hover{
+  box-shadow:7px 7px 0px 2px rgba(0, 0, 0, 0.3);
+}
+.section div:hover{
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  color:rgba(255, 255, 255, 0);
+}
+.section p:hover, .section ul:hover{
+  filter:opacity(0%);
+}
+#anhui{
+  background-color:rgb(52, 137, 206);
+}
+#anhui:hover{
+  background-image:linear-gradient(0deg,rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url('https://www.chinadiscovery.com/assets/images/huangshan/what-to-eat/anhui-cuisine.jpg');
+}
+#cantonese{
+  background-color:rgb(41, 138, 194);
+}
+#cantonese:hover{
+  background-image:linear-gradient(0deg,rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url('https://www.chinadiscovery.com/assets/images/guangzhou/food/cantonese-dim-sum-844.jpg');
+}
+#fujian{
+  background-color:rgb(22, 143, 82);
+}
+#fujian:hover{
+  background-image:linear-gradient(0deg,rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url('https://wangyuhanblog.files.wordpress.com/2016/03/dj-700x420.jpg?w=1000');
+}
+#hunan{
+  background-color:rgb(43, 184, 90);
+}
+#hunan:hover{
+  background-image:linear-gradient(0deg,rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url('https://www.yumchinesefood.com/images/upload/2019/7/26/hunan.jpg');
+}
+#jiangsu{
+  background-color:rgb(34, 163, 44);
+}
+#jiangsu:hover{
+  background-image:linear-gradient(0deg,rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url('https://welcometochina.com.au/wp-content/uploads/2014/01/eightcuisines.jpg');
+}
+#shandong{
+  background-color:rgb(29, 155, 29);
+}
+#shandong:hover{
+  background-image:linear-gradient(0deg,rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url('https://subsites.chinadaily.com.cn/shandong/att/20191226/1577352651193093186.jpg');
+}
+#sichuan{
+  background-color:rgb(42, 112, 179);
+}
+#sichuan:hover{
+  background-image:linear-gradient(0deg,rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url('https://www.seriouseats.com/images/2014/08/20140625-sichuan-food.jpg');
+}
+#zhejiang{
+  background-color:rgb(44, 92, 170);
+}
+#zhejiang:hover{
+  background-image:linear-gradient(0deg,rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url('https://www.yumchinesefood.com/images/upload/2019/7/26/zhejiang.jpg');
+}
+p, h2, li{
+  text-shadow:1px 1px 3px rgba(0,0,0,0.8);
+}
+.section h2{
+  font-size: 28px;
+  letter-spacing:3px;
+}

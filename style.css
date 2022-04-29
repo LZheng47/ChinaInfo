@@ -1,0 +1,252 @@
+*{
+  transition:0.5s;
+}
+
+h1,h2,h3,h4{
+  color:white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body{
+  margin:0 auto;
+  background-color:black;
+  color:white;
+}
+
+p, li{
+  font-family: 'Lato', sans-serif;
+  letter-spacing:2px;
+  line-height:30px;
+  font-size:18px;
+}
+
+a{
+  text-decoration:none;
+}
+
+nav a{
+  padding:15px 17px;
+}
+
+nav a:hover{
+  background-color:gray;
+}
+
+nav h4{
+  color:rgba(255,255,255,0.8);
+  letter-spacing:2px;
+  display:inline;
+}
+
+nav h4:hover{
+  color:rgb(43, 89, 214);
+  border-bottom:2px solid rgb(72, 50, 197);
+}
+
+.container{
+  display:flex;
+}
+
+.container *{
+  flex:1;
+}
+
+.center{
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+}
+
+#topbar{
+  position:sticky;
+  z-index:2;
+  top:0;
+  background-color:rgba(0,0,0,0.8);
+  align-items:center;
+  box-shadow:2px 2px 5px rgba(0, 0, 0, 0.8);
+}
+
+#topbarleft{
+  max-width:320px;
+  
+}
+#topbarlefta{
+  display:flex;
+  align-items:center;
+  max-height:40px;
+}
+
+.logo{
+  padding:0px 10px 0px 20px;
+  max-height:30px;
+  max-width:30px;
+}
+.logo:hover{
+  transition:1s;
+  transform:rotate(360deg);
+}
+#topbarleft h2{
+  display:inline;
+  letter-spacing:3px;
+  padding:0px 5px;
+  color:rgba(255,255,255,0.9);
+}
+#topbarleft h2:hover, #footer h2:hover{
+  text-shadow:2px 2px 5px black;
+  color:rgba(255, 134, 119);
+  letter-spacing:4px;
+}
+#footer{
+  display:flex;
+  flex-direction:column;
+  background-image: linear-gradient(90deg,rgba(117, 95, 131, 0.8),rgba(128, 88, 153,0.8));
+  padding:40px;
+  box-shadow:inset 5px -5px 0px 5px rgba(0, 0, 0, 0.1);
+}
+#footer div{
+  flex:1;
+}
+#logofooter{
+  display:flex;
+  align-items:center;
+  max-height:40px;
+}
+#footertop h2{
+  display:inline;
+  letter-spacing:3px;
+}
+#footerlinks{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+#footerlinks div{
+  flex:1;
+  padding:10px 15px;
+}
+.bar{
+  align-items:center;
+  width:100%;
+  background-color:black;
+  height:50px;
+  box-shadow:3px 3px 5px rgba(0,0,0,0.8);
+}
+.bar h4{
+  letter-spacing:2px;
+  display:inline;
+  font-size:15px;
+  padding:0px 25px;
+}
+#main hr{
+  width:100%;
+  max-width:750px;
+  line-height:0px;
+}
+#main h1 h2{
+  flex:1;
+  line-height:0px;
+}
+#main{
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  box-shadow:inset 0px 0px 70px 60px rgba(0, 0, 0, 0.3);
+  padding:230px 0px;
+  display:flex;
+  flex-direction:column;
+  text-shadow:1px 1px 5px black;
+}
+#title{
+  margin:0px;
+  font-size:100px;
+  color:rgba(255,255,255,0.9);
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing:12px;
+}
+#title:hover{
+  letter-spacing:14px;
+  text-shadow:2px 2px 5px black;
+}
+#miniinfo{
+  flex:1;
+  color:rgb(145, 185, 245);
+  font-size:26px;
+  line-height:30px;
+  max-height:55px;
+  width:35px;
+  overflow:hidden;
+}
+#miniinfo:hover{
+  margin-top:3px;
+  transition:0.4s;
+  background-color:rgba(0,0,0,0.8);
+  font-size:18px;
+  color:rgb(167, 121, 240);
+  width:500px;
+  max-height:120px;
+  box-shadow:2px 2px 5px rgba(0,0,0,0.8);
+  border-radius:10px;
+}
+#footer a{
+  max-width:fit-content;
+}
+#footer h2{
+  text-shadow:1px 1px 5px black;
+}
+#footerbottom img{
+  padding:0px 10px 0px 20px;
+  max-height:20px;
+  max-width:20px;
+}
+#footerbottom img:hover{
+  transition:1s;
+  transform:rotate(360deg);
+}
+#footerbottom h4{
+  color:rgba(255,255,255,0.8);
+  letter-spacing:2px;
+  display:inline;
+}
+#footerlinks1 h3, #footerlinks2 h3{
+  text-shadow:1px 1px 5px black;
+  letter-spacing:3px;
+  border-bottom:2px solid white;
+  margin:8px 8px 15px 8px;
+}
+#footerlinks1 h4, #footerlinks2 h4{
+  text-shadow:1px 1px 5px black;
+  color:rgba(255,255,255,0.8);
+  font-size:17px;
+  letter-spacing:2px;
+  line-height:25px;
+  margin:8px;
+}
+#footerlinks1 h4:hover, #footerlinks2 h4:hover{
+  text-shadow:2px 2px 5px black;
+  letter-spacing:3px;
+  color:rgb(134, 163, 243);
+}
+#footerbottom{
+  display:flex;
+  flex-direction:column;
+}
+#footerbottom a{
+  display:flex;
+  line-height:0px;
+  flex:1;
+  align-items:center;
+}
+#footerbottom h4:hover{
+  text-shadow:2px 2px 5px black;
+  letter-spacing:3px;
+  color:rgb(154, 134, 243);
+}
+#copyright{
+  text-shadow:1px 1px 5px black;
+  letter-spacing:3px;
+  display:flex;
+  text-align:right;
+}
+#copyright h4{
+  flex:1;
+}
